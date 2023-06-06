@@ -3,32 +3,45 @@
 
 <head>
     <title>Julien's First Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div>
+    <div id="all-contents">
         <nav>
             <h1>How to take care of Felines, Canines and Rodents</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="portfolio.html"> portfolio </a>
+                    </li>
+                </ul>
         </nav>
 
         <main>
-
-            <div>
-                <img src="http://www.dogster.com/wp-content/uploads/2018/01/Dog-with-cat-and-bunny.jpg"
+            <!-- Sidebar section -->
+            <div class="Sidebar">
+                <img class="sidebar-img" src="http://www.dogster.com/wp-content/uploads/2018/01/Dog-with-cat-and-bunny.jpg">
             </div>
-
-            <h2>Julien Lee</h2>
-            <p>Student at MJHS</p>
-            <!-- Interests section -->
-            <div>
-                <h3>Interests</h3>
-                <ul>
-                    <li>Felines</li>
-                    <li>Canines</li>
-                    <li>Rodents</li>
-                </ul>
+           
+            <!-- Content section -->
+            <div class="content">
+                <h2>Julien Lee</h2>
+                <p>Student at MJHS</p>
+                <!-- Interests section -->
+                <div id="Interests">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Felines</li>
+                        <li>Canines</li>
+                        <li>Rodents</li>
+                    </ul>
+                </div> 
             </div>
+            
         </main>
     </div>
 </body>
