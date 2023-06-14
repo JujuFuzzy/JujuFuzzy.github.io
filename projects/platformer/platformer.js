@@ -55,8 +55,8 @@ $(function () {
     createCollectable("database", 1016, 300,);
     
     createCannon("bottom", 980, 900);
-    createCannon("");
-    createCannon("");
+    createCannon("top", 700, 920);
+    createCannon("top", 300, 900);
 
 
 
