@@ -49,11 +49,12 @@ $(function () {
     createPlatform(800, 500, 590, 20);
     createPlatform(990, 440, 100, 20);
     
-    createCollectable("database", 220, 300,);
-    createCollectable("database", 420, 300,);
-    createCollectable("database", 620, 300,);
-    createCollectable("database", 1016, 300,);
-    
+    createCollectable("grace", 220, 300,);
+    createCollectable("max", 420, 300,);
+    createCollectable("kennedi", 620, 300,);
+    createCollectable("steve", 1016, 300,);
+    createCollectable("diamond", 1300, 300,)
+
     createCannon("bottom", 980, 900);
     createCannon("top", 700, 920);
     createCannon("top", 300, 900);
